@@ -302,6 +302,10 @@ html,body{
     font-weight: 900;
     transition: .3s;
 }
+.aboutus-btn a{
+    text-decoration: none;
+    color:#333
+}
 .aboutus-btn:hover{
     border:2px solid rgb(228, 199, 69);
     background: rgb(228, 199, 69);
@@ -390,6 +394,10 @@ html,body{
     margin-top: 60px;
     background: rgb(242, 242, 242);
 }
+.news-btn a{
+    text-decoration: none;
+    color:#333;
+}
 #news .news-btn:hover{
     border:2px solid rgb(228, 199, 69);
     background: rgb(228, 199, 69);
@@ -400,8 +408,6 @@ html,body{
         max-width: 250px;
        }
 }
-
-
 /* 方塊盒 */
 #square-wrap{
     margin-top: 100px;
@@ -446,8 +452,6 @@ html,body{
     color:#fff;
     background: rgba(0,0,0,.6);
     transition: .5s;
-    cursor: pointer;
-    
 }
 .square-item .text h2:first-child{
     transform: translateY(60px);
@@ -494,8 +498,6 @@ html,body{
 .square-item:first-child .text h2{
     font-size: 3rem;
 }
-
-
 @media screen and (max-width: 768px){
     .square-item .text h2{
         font-size:20px;
@@ -534,16 +536,12 @@ html,body{
         padding: 0 5px;
         font-size: 1.1rem;
     }
-   
-   
 }
 /* swiper */
-
 .swiper-container {
     width: 80%;
     height: 350px;
   }
-  
   .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -570,6 +568,7 @@ html,body{
         height: 250px;
       }
   }
+  
   @media screen and (max-width:576px){
     .swiper-container {
         height: 250px;
