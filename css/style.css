@@ -329,6 +329,12 @@ html,body{
         text-align: center;
     }
 }
+@media screen and (max-width: 576px){
+    .aboutus-img{
+        max-width: 400px;
+        margin-top: 10px;
+     }
+}
 /* news */
 #news{
     text-align: center;
