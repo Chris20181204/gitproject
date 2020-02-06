@@ -330,8 +330,11 @@ html,body{
     }
 }
 @media screen and (max-width: 576px){
+    .aboutus-img-logo{
+        max-width:400px;
+    }
     .aboutus-img{
-        max-width: 400px;
+        width: 100%;
         margin-top: 10px;
      }
 }
