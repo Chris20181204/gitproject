@@ -271,6 +271,7 @@ html,body{
     margin-top: 80px;
     /* border:1px solid #333; */
     padding: 0 50px;
+    box-sizing: border-box;
 }
 .aboutus-breadcrumb{
     display: inline-block;
@@ -283,7 +284,7 @@ html,body{
     margin-left:-10px ;
     color:rgb(143, 142, 142);
 }
-.aboutus-breadcrumb::after{
+/* .aboutus-breadcrumb::after{
     content:'';
     position: absolute;
     top: 50%;
@@ -291,7 +292,7 @@ html,body{
     width: 1000px;
     height: 2px;
     background: rgb(143, 142, 142);
-}
+} */
 .aboutus-title{
     /* border:solid 1px  #333;  */
     display: block;
@@ -341,12 +342,29 @@ html,body{
     background: #fff;
 }
 @media screen and (max-width: 768px){
+    .aboutus-breadcrumb{
+        width: 120px;
+        margin-left:-5px ;
+        font-size: 12px;
+    }
+    .aboutus-breadcrumb::after{
+        /* left: 118px;
+        width:600px;
+        height: 1.5px; */
+        display: none;
+    }
     .aboutus-box{
         margin: 15px 30px;
     }
 }
 
 @media screen and (max-width: 576px){
+    /* .aboutus-breadcrumb{
+        margin-left:0px ;
+    }
+    .aboutus-breadcrumb::after{
+        width:300px;
+    } */
     .aboutus-box{
         display: block;
         text-align: center;
